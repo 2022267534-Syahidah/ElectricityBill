@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Electricity Bill</string>
+    <string name="title_main">Electricity Bill Calculator</string>
+    <string name="title_list">Bill Records</string>
+    <string name="title_detail">Bill Detail</string>
+    <string name="title_about">About</string>
+
+    <!-- Months -->
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <!-- Labels -->
+    <string name="lbl_month">Select Month</string>
+    <string name="lbl_unit">Units Used (kWh)</string>
+    <string name="lbl_rebate">Rebate (%)</string>
+    <string name="lbl_total_charges">Total Charges</string>
+    <string name="lbl_final_cost">Final Cost After Rebate</string>
+    <string name="hint_unit">Enter 1 – 1000 kWh</string>
+    <string name="hint_rebate">0% – 5%</string>
+    <string name="btn_calculate">CALCULATE</string>
+    <string name="btn_save">SAVE TO DATABASE</string>
+    <string name="btn_view_list">VIEW ALL RECORDS</string>
+    <string name="btn_back">BACK</string>
+    <string name="btn_edit">EDIT</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_update">UPDATE</string>
+
+    <!-- Info -->
+    <string name="instruction_title">How to Use</string>
+    <string name="instruction_text">1. Select the billing month.\n2. Enter electricity units used (1–1000 kWh).\n3. Enter rebate percentage (0–5%).\n4. Press CALCULATE to see charges.\n5. Press SAVE to store record.\n6. Press VIEW ALL RECORDS to see history.</string>
+
+    <!-- About -->
+    <string name="about_fullname">Full Name: Your Name Here</string>
+    <string name="about_student_id">Student ID: 2025XXXXXXX</string>
+    <string name="about_course">Course: ICT602 – Mobile Technology and Development</string>
+    <string name="about_copyright">© 2025 Electricity Bill App. All rights reserved.</string>
+    <string name="about_github_label">GitHub / Website:</string>
+    <string name="about_github_url">https://github.com/yourusername/electricity-bill</string>
+    <string name="about_desc">Electricity Bill is a simple Android application that helps users estimate their monthly electricity bill based on TNB tiered tariff rates. Users can save, view, edit, and delete records.</string>
+</resources>

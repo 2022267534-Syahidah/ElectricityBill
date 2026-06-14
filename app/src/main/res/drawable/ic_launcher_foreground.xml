@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Lightning bolt shape (centered in safe zone 72dp, offset 18dp each side) -->
+    <!-- White outer bolt (shadow/outline effect) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M63,18 L42,52 L56,52 L38,90 L70,48 L55,48 Z"/>
+
+    <!-- Yellow inner bolt -->
+    <path
+        android:fillColor="#FFE600"
+        android:pathData="M62,21 L43,53 L56,53 L40,87 L68,50 L55,50 Z"/>
+
+    <!-- kWh label background pill -->
+    <path
+        android:fillColor="#00000044"
+        android:pathData="M32,88 Q32,83 37,83 L71,83 Q76,83 76,88 L76,96 Q76,101 71,101 L37,101 Q32,101 32,96 Z"/>
+
+    <!-- k -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39,87 L39,99 L41,99 L41,94 L44,99 L47,99 L43,93 L46,87 L43,87 L41,92 L41,87 Z"/>
+
+    <!-- W -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,87 L50,96 L52,90 L54,96 L56,87 L54,87 L52,93 L50,87 Z"/>
+
+    <!-- H -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,87 L58,99 L60,99 L60,94 L64,94 L64,99 L66,99 L66,87 L64,87 L64,92 L60,92 L60,87 Z"/>
+
+</vector>

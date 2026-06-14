@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Sky Blue + Aqua Theme -->
+    <color name="colorPrimary">#0097A7</color>
+    <color name="colorPrimaryDark">#006064</color>
+    <color name="colorPrimaryVariant">#00838F</color>
+    <color name="colorSecondary">#80DEEA</color>
+    <color name="colorAccent">#26C6DA</color>
+    <color name="colorBackground">#E0F7FA</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnBackground">#004D40</color>
+    <color name="colorCardBg">#B2EBF2</color>
+    <color name="colorButtonText">#FFFFFF</color>
+    <color name="colorHint">#80CBC4</color>
+    <color name="colorError">#D32F2F</color>
+    <color name="colorDivider">#B2EBF2</color>
+
+    <!-- Aliases — old layout/drawable references mapped to theme colors -->
+    <color name="sky_primary">#0097A7</color>
+    <color name="sky_bg">#E0F7FA</color>
+    <color name="sky_card">#FFFFFF</color>
+    <color name="sky_divider">#B2EBF2</color>
+    <color name="sky_input_bg">#FFFFFF</color>
+    <color name="sky_input_border">#0097A7</color>
+    <color name="sky_result_bg">#E0F7FA</color>
+    <color name="sky_result_border">#0097A7</color>
+    <color name="aqua_accent">#26C6DA</color>
+    <color name="text_primary">#004D40</color>
+    <color name="text_label">#006064</color>
+    <color name="text_secondary">#00838F</color>
+    <color name="text_hint">#80CBC4</color>
+    <color name="white">#FFFFFF</color>
+</resources>

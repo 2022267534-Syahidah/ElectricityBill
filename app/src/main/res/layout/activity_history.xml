@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFF6FF">
+
+    <!-- Hint bar -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap a record to View, Update, or Delete"
+        android:textColor="#0369A1"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#FFFFFF"/>
+
+    <!-- Thin blue line separator -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#0369A1"/>
+
+    <!-- ListView with white background so items are visible -->
+    <ListView
+        android:id="@+id/listViewBills"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:divider="#BAE6FD"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>

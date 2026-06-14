@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp">
+
+        <!-- Header -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="5dp"
+            app:cardBackgroundColor="@color/colorPrimary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bill Detail"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Detail Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="5dp"
+            app:cardBackgroundColor="@color/colorSurface">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- Month -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:padding="10dp"
+                    android:background="@color/colorCardBg" android:layout_marginBottom="8dp">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:text="Month"
+                        android:textColor="@color/colorOnBackground" android:textStyle="bold"/>
+                    <TextView android:id="@+id/tvDetailMonth" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="–"
+                        android:textColor="@color/colorPrimary" android:textStyle="bold"/>
+                </LinearLayout>
+
+                <!-- Unit -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:padding="10dp" android:layout_marginBottom="8dp">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:text="Units Used (kWh)"
+                        android:textColor="@color/colorOnBackground" android:textStyle="bold"/>
+                    <TextView android:id="@+id/tvDetailUnit" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="–"
+                        android:textColor="@color/colorPrimary" android:textStyle="bold"/>
+                </LinearLayout>
+
+                <!-- Rebate -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:padding="10dp"
+                    android:background="@color/colorCardBg" android:layout_marginBottom="8dp">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:text="Rebate"
+                        android:textColor="@color/colorOnBackground" android:textStyle="bold"/>
+                    <TextView android:id="@+id/tvDetailRebate" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="–"
+                        android:textColor="@color/colorPrimary" android:textStyle="bold"/>
+                </LinearLayout>
+
+                <!-- Total Charges -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:padding="10dp" android:layout_marginBottom="8dp">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:text="Total Charges"
+                        android:textColor="@color/colorOnBackground" android:textStyle="bold"/>
+                    <TextView android:id="@+id/tvDetailTotal" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="–"
+                        android:textColor="@color/colorPrimary" android:textStyle="bold"/>
+                </LinearLayout>
+
+                <!-- Final Cost -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:padding="12dp"
+                    android:background="@color/colorPrimary">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:text="Final Cost"
+                        android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="16sp"/>
+                    <TextView android:id="@+id/tvDetailFinal" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="–"
+                        android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="18sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEdit"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="✏️ EDIT"
+                android:textStyle="bold"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_marginEnd="8dp"
+                app:cornerRadius="12dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="🗑️ DELETE"
+                android:textStyle="bold"
+                android:backgroundTint="@color/colorError"
+                app:cornerRadius="12dp"/>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBackDetail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="BACK"
+            android:textStyle="bold"
+            android:backgroundTint="@color/colorPrimaryDark"
+            app:cornerRadius="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

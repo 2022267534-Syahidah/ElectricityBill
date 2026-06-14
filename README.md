@@ -96,7 +96,7 @@ app/src/main/
 
 | | |
 |---|---|
-| **Name** | Nur Syahidah |
+| **Name** | Siti Nursyahidah |
 | **Student ID** | 2022267534 |
 | **Course** | ICT602 – Mobile Technology and Development |
 | **Institution** | Universiti Teknologi MARA (UiTM) |
